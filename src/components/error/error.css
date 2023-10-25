@@ -1,0 +1,18 @@
+.error-main{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.error-main-back{
+    background-color: white;
+    padding: 1em;
+    border-radius: 14px;
+}
+
+.error-main-back:hover{
+    cursor: pointer;
+}

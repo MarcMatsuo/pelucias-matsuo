@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.main .header{
+    width: 100%;
+    padding: 1em 0;
+}
+
+.addNotific{
+    position: fixed;
+    z-index: 1;
+    top: 7em;
+    right: 1em;
+    border: 1px solid black;
+    background-color: greenyellow;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.main-section-title{
+    padding: 1em !important;
+}
+
+.main-section-products{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1080px){
+    .main-section-products{
+        column-gap: 5em;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .main-section-products{
+        column-gap: 0;
+    }
+}

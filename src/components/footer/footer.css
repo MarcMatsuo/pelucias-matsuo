@@ -1,0 +1,47 @@
+.footer{
+    padding: 2em;
+    margin-top: 1em;
+    font-size: 18px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    color: white;
+}
+
+.footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: space-around;
+}
+
+.footer h3{
+    font-size: 40px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid white;
+    padding: 0.5em;
+
+    transition: 0.5s;
+}
+
+.footer-link:hover{
+    cursor: pointer;
+}
+
+.linkedin:hover{
+    color: #0a66c2;
+    background-color: white;
+}
+
+.portfolio:hover{
+    color: black;
+    background-color: white;
+}

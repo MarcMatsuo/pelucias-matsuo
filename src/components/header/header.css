@@ -1,0 +1,55 @@
+.header{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 4em;
+    background-color: var(--main-bg-color);
+}
+
+.header-img{
+    color: white;
+}
+
+.fa-cart-shopping{
+    color: white;
+    font-size: 2em;
+}
+
+.fa-magnifying-glass{
+    color: white;
+}
+
+.inputBox_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 45%;
+    height: fit-content;
+    background-color: #5c6370;
+    border-radius: 0.8em;
+    overflow: hidden;
+    gap: 0.8em;
+    padding-left: 1em;
+  }
+  
+  .search_icon {
+    height: 1em;
+    padding: 0 0.5em 0 0.8em;
+    fill: #abb2bf;
+  }
+  
+  .inputBox {
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1.5em 0.5em 0;
+    font-size: 1em;
+  }
+  
+  ::placeholder {
+    color: #abb2bf;
+  }
